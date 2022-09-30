@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <meta charset="UTF-8">  
+        <%- include("partials/header") -%>
+    </head>
+
+    <h1></h1>
+
+<body>
+    
+    <table>   
+    <tr><th>Contact Jake</td></tr>
+    <td style="padding: 24px">If you would like to get in touch with the Jakester about anything related to, whatever, feel free to fill out the contact form below.</td>
+    </table>
+    
+    
+    
+<div class="container">
+  <form action="/">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name...">
+
+    <label for="eaddress">Email Address</label>
+    <input type="text" id="eaddress" name="email" placeholder="Your email address...">
+
+    <label for="pnumber">Phone Number</label>
+    <input type="text" id="eaddress" name="email" placeholder="Your number...">
+
+    <label for="interests">What are your top 3 interests right now?</label>
+    <input type="text" id="interests" name="interests" placeholder="Your 3 interests...">
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" >
+  </form>
+</div>    
+    
+
+<table class="tableLeft" style="border-spacing: 12px;">
+<a href="https://twitter.com/Krobelux" target="_blank"><img src="images/twitter%20logo.jpg"> </img></a>
+
+<a href="https://www.youtube.com/channel/UCNCtsOJO_7uNSVHEvMIwGGw" target="_blank"><img src="images/youtube%20logo%20bw.jpg"></img></a>   
+
+<a href="https://www.instagram.com/krobulex/" target="_blank"><img src="images/instagram%20logo.jpg"></img>
+</a>
+
+</table>
+
+<div id="footer">
+    <%- include("partials/footer") -%>
+</div>
+    
+    
+    
+</body>
+</html>
