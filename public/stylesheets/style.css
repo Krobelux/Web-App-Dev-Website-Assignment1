@@ -2,13 +2,15 @@
 Filename: style.css
 Student Name: Jacob Todasco
 Student ID: 301251200
-Date: September 30th 2022 (Yes I am bad with doing things last minute :(   )
+Date: September 30th 2022
 
 Issues:
 I couldn't figure out why my header image wouldn't load. I had it originally as 
 just a css class and called that. It seems to work on regular HTML but not here.
 I included it in the /partials/header.ejs to simplify it, but it appears as 
-a broken image. Help ! 
+a broken image. This is a banner I made myself and it includes my logo that I
+also created myself. 
+Help ! 
 
 I also couldn't get my pdf resume to appear. I looked on the internet how to 
 do this and it just wouldn't work. I'm not sure why. Help #2 !
